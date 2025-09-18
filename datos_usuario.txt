@@ -1,1 +1,2 @@
 liveuser=liveuser
+model name	: AMD Ryzen 7 3700X 8-Core Processor
