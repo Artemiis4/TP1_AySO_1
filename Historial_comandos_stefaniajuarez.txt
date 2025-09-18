@@ -1,0 +1,64 @@
+cd
+ls
+cd..
+cd
+cd home
+cd
+mkdir repogit 
+cd repogit
+git clone https://github.com/Artemiis4/TP1_AySO_1.git
+sudo dnf install -y git
+git clone https://github.com/ArtemisI4/TPI_AySO_1.git
+ssh -T git@github.com
+git clone git@github.com:Artemiis4/TPI_AySO_1.git
+ls
+cd TPI_AySO_1
+git clone https://github.com/Artemiis4/TP1_AySO_1.git
+ls
+cd TP1_AySO_1/
+pwd
+ls -l 
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release   # El -i es para ignorar mayúsculas/minúsculas
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "liveuser=$(whoami)" > datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git config --global user.name "Artemiis4"
+git config --global user.email "stefaniajuarez15@gmail.com"
+git add datos_usuario.txt
+it commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+Git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v nologin /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+echo "man -k dump" >> comando_dump_net
+cat comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: Stefania Juarez
+División: 314
+Turno: Noche
+EOF
+
+git add README.md
+git commit -m "docs: agregado nombre, división y turno"
+history -a
